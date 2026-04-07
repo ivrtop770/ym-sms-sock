@@ -1,0 +1,25 @@
+{
+  "name": "ym-sms-sock",
+  "version": "1.0.0",
+  "description": "Send and receive SMS-style SIP messages over Yemot HaMashiach WebSocket (JsSIP, Node.js).",
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "yemot",
+    "sip",
+    "sms",
+    "websocket",
+    "jssip"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jssip": "^3.13.6",
+    "ws": "^8.18.0"
+  }
+}
